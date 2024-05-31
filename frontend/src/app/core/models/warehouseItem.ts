@@ -1,8 +1,10 @@
 export interface WarehouseItem {
-    imageUrl: string
-    id: number
-    name: string
-    description: string
-    quantity: number
-    unitPrice: number
+  _id: number
+  imageUrl: string
+  name: string
+  label: string
+  description: string
+  quantity: number
+  price: number
+  unit: string
 }
