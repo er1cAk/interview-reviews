@@ -1,0 +1,21 @@
+:host {
+  width: 100%;
+
+  .shipment-list {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .list-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+}

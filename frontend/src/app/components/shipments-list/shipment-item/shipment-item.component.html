@@ -1,0 +1,7 @@
+<div class="shipment-item" *ngIf="item">
+  <div class="shipment-item--content">
+    <span><b>{{ item.label }}</b></span>
+  </div>
+  <span>{{ item.quantity }}x</span>
+  <span>{{ item.price | currency:'EUR' }}</span>
+</div>
