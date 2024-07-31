@@ -5,34 +5,28 @@ This repository serves as the scaffold of the application that is a part of the 
 ## Assignment
 
 1. As a warehouse, we would like to have two main features
+
    1. Warehouse status
+
       1. Table of products that are available
-      2. Each item will have the following properties
-         1. Quantity
-         2. Unit price (euros)
-   2. Shipments
-      1. Possibility to create a new shipment
-         1. Company name
-         2. The generated ID of the shipment
-         3. Creation date (generated)
-         4. Scheduled shipment date
-         5. Items
-      2. Possibility to Edit the shipment
-      3. The shipments are listed to preview
-      4. Status
-         1. each shipment will have 3 statuses
-            1. Created
-            2. Prepared
-            3. Shipped
-      5. Creation/Editing of the shipment should be reflected in the warehouse status
+      2. Product definition (required properties)
+         1. ID
+         2. Name
+         3. Quantity
+         4. Unit price (euros)
+
+   2. Shipments (optional)
+
 2. The application should be prepared to use the REST API
-   1. Data should be prepared in mocks, that will be used by the application
-   2. In case of Fullstack position, the API should be implemented
+
+   1. In case of Fullstack position, the API should be implemented
+
 3. Please at the development consider
-   1. The development general
-   2. Best practices for the development of angular application
-   3. Testing
-   4. Simulate a situation in which you work with the team (pay attention to how you work with Git)
+
+   1. Best practices for the development of angular application
+   2. Testing
+   3. Simulate a situation in which you work with the team (pay attention to how you work with Git)
+
 4. This is a bare minimum, there are no limits to creativity, just keep in mind what we wanted
 
 We wish you good luck and a clear mind! We are looking forward to seeing you!
@@ -64,4 +58,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ### Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-

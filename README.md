@@ -16,4 +16,15 @@ If you applied for a fullstack position, complete the assessment tasks for listi
 
 In the end, we should be able to test the implemented functionality of the backend through the frontend. This means you should start both the backend and frontend locally and use the Warehouse application to ensure everything works seamlessly.
 
+## Criteria
+
+To be clear about what we’re looking for, here are some of the criteria we’ll be evaluating:
+
+- **Code design and architecture** - Is the architecture of application clear? Does it use patterns that helps with maintainability and scalability?
+- **Code quality**: Is the code clean, well-structured, and easy to understand?
+- **Functionality**: Does the application work as expected?
+- **Performance**: Does the application run effiecently?
+- **Testing**: Are there unit and integration tests? Do they test the functionality?
+- **Documentation**: Are we able to run project following instructions in README? Is the code documented?
+
 Good luck, and we look forward to seeing your work!
